@@ -22,15 +22,6 @@ nav {
     align-items: center; 
 
 }
-.container {
-border:6px solid black;
-padding:0.7em;
-background-color: beige;
-display: flex; 
-gap: 2rem;
-
-}
-
 
 /* voor links die geslecteerd deze kleur zie je nergens terug (maar niet geklikt, met tabs */
 a:focus {
