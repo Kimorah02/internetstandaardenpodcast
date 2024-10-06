@@ -13,16 +13,6 @@ nav {
 }
 
 
-.container {
-    border:2px solid black;
-    
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center; 
-
-}
-
 /* voor links die geslecteerd deze kleur zie je nergens terug (maar niet geklikt, met tabs */
 a:focus {
     color:blueviolet
@@ -75,7 +65,15 @@ h2 {
     padding: 0.2em;
 }
 
+.logo{
+    animation-name: slideIn;
+    animation-duration: 30s;
+}
 
+@keyframes slideIn{
+    from {transform: translateX(0);}
+    to{transform: translateX(50px);}
+}
 
 
 
