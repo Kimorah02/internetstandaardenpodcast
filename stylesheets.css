@@ -1,0 +1,95 @@
+body {
+    background: pink;
+    font-family: sans-serif;
+}
+
+
+h1,h2 {
+    color: palevioletred
+}
+
+nav { 
+    text-align:center;
+}
+
+
+.container {
+    border:2px solid black;
+    
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+
+}
+.container {
+border:6px solid black;
+padding:0.7em;
+background-color: beige;
+display: flex; 
+gap: 2rem;
+
+}
+
+
+/* voor links die geslecteerd deze kleur zie je nergens terug (maar niet geklikt, met tabs */
+a:focus {
+    color:blueviolet
+}
+
+a {
+    color: brown;
+    transition: all 0.5s ease 0.2s;
+    /* transitions instellingen:display:
+       - color: de kleur van de tekst veranderd 
+       - 0.5: dit geeft duur van de overgang aan
+       - ease: voor een vloeiende overgang 
+       -0,2: vertraging voor de overgang begint */
+}
+
+a {
+    display:inline-block; /* dit zorg ervoor dat je transition werkt*/
+    transition: transform 0.5s ease;
+}
+
+a:hover  {
+    color:palevioletred;
+    transform: scale(1.2) rotate(360deg); /*dit vergoot en draait de link bij de hover*/
+    cursor: pointer;
+}
+
+ul {
+    display: flex; 
+    justify-content:space-evenly;
+    align-items:baseline;
+}
+
+nav ul li {
+    display: flex;
+    list-style-type: none;
+    margin: 4px;;
+    border:2px solid black;
+    background:rgb(217, 157, 182);
+}
+
+h1 {
+    border:2px solid black;
+    background-color: white;
+    padding: 0.2em;
+}
+
+h2 {
+    border:2px solid black;
+    background-color:white;
+    padding: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
